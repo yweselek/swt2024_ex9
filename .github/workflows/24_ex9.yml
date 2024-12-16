@@ -2,7 +2,7 @@ name: CI/CD Pipeline
 on:
   push:
    branches:
-    - 24ex9 # Trigger workflow on push to the main branch
+    - 24_ex9 # Trigger workflow on push to the main branch
 jobs:
   build:
    runs-on: ubuntu-latest
